@@ -1,0 +1,36 @@
+.search,
+.select {
+  width: min-content;
+}
+.search {
+  height: min-content;
+}
+
+.search::placeholder {
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+@media (max-width: 630px) {
+  .sort {
+    margin-right: 0 !important;
+  }
+
+  .select {
+    margin-bottom: 1rem;
+  }
+
+  .dropdowns {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 400px) {
+  .search {
+    width: 50%;
+  }
+}

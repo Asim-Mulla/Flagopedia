@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-h1 {
+  border-right: 2px solid gray;
+}
+
+@media (max-width: 550px) {
+  .footer {
+    padding: 1rem !important;
+  }
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: rgb(40, 44, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1900px;
+}
+
+/* Target the scrollbar */
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+/* Track of the scrollbar (background area) */
+::-webkit-scrollbar-track {
+  background: rgb(33, 36, 41);
+}
+
+/* Handle of the scrollbar (the draggable part) */
+::-webkit-scrollbar-thumb {
+  border-radius: 0.3rem;
+  background-color: rgb(43, 51, 61); /* Color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.active {
+  color: #ffffff;
+}
+
+.ustyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.unstyled-a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}

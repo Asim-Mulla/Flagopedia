@@ -1,0 +1,22 @@
+.countries-container {
+  padding: 0 4rem 0 4rem;
+}
+
+@media (max-width: 550px) {
+  .countries-container {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .searchsortfilter-container {
+    margin-top: 1.3rem !important;
+  }
+
+  .country-cards-container {
+    margin-bottom: 1.5rem !important;
+  }
+  .country-cards-container .row {
+    margin-top: 0 !important;
+  }
+}

@@ -1,0 +1,61 @@
+.country-details-container {
+  height: 100%;
+  width: 100%;
+}
+
+.detail-country-flag-img {
+  height: 10rem;
+  width: 18rem;
+}
+
+.detail-country-flag-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.details-info-back {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .country-details-container {
+    flex-direction: column;
+  }
+  .detail-country-flag-img {
+    height: 15rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .country-details-container {
+    padding: 1rem !important;
+  }
+  .info {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .detail-country-flag-img {
+    height: 13rem;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .detail-country-flag-img {
+    height: 10rem;
+  }
+  .details-info-back {
+    flex-direction: column;
+  }
+  .back {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.opacity-07 {
+  opacity: 0.7;
+}

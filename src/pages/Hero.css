@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero-image {
+    margin-bottom: 2rem;
+  }
+}
+
+.hero-image img {
+  height: 17rem;
+  width: 27rem;
+  border-radius: 2rem;
+}
+
+@media (max-width: 550px) {
+  .hero {
+    padding: 1.5rem !important;
+  }
+
+  .hero div {
+    margin-right: 0 !important;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+  .hero-image img {
+    height: 100%;
+    width: 100%;
+  }
+}
